@@ -1,0 +1,8 @@
+coblocks:
+
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'coblocks.duckdb'
+      threads: 24

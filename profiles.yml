@@ -1,8 +1,16 @@
 coblocks:
-
-  target: dev
+  target: prod
   outputs:
-    dev:
+    prod:
       type: duckdb
-      path: 'coblocks.duckdb'
-      threads: 24
+      path: coblocks.duckdb
+      remote:
+        host: 0.0.0.0
+        port: 5433
+        user: postgres
+      threads: 4
+
+    dev: 
+      type: duckdb
+      path: coblocks.duckdb
+      threads: 4

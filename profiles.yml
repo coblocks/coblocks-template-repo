@@ -6,7 +6,7 @@ coblocks:
       path: coblocks.duckdb
       remote:
         host: "{{ env_var('COBLOCKS_WAREHOUSE_HOST') }}"
-        port: "{{ env_var('COBLOCKS_WAREHOUSE_PORT') }}"
+        port: 5433
         user: "{{ env_var('COBLOCKS_WAREHOUSE_USER') }}"
       threads: 4
 

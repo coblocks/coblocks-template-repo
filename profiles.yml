@@ -1,5 +1,5 @@
 coblocks:
-  target: prod
+  target: dev
   outputs:
     prod:
       type: duckdb

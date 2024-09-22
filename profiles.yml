@@ -1,7 +1,7 @@
 coblocks:
-  target: dev
+  target: "{{ env_var('COBLOCKS_DBT_PROFILE_TARGET') }}"
   outputs:
-    prod:
+    remote:
       type: duckdb
       path: coblocks.duckdb
       remote:
@@ -10,7 +10,7 @@ coblocks:
         user: "{{ env_var('COBLOCKS_WAREHOUSE_USER') }}"
       threads: 4
 
-    dev: 
+    local: 
       type: duckdb
       path: coblocks.duckdb
       threads: 4

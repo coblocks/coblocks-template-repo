@@ -12,5 +12,5 @@ coblocks:
 
     local: 
       type: duckdb
-      path: coblocks.duckdb
+      path: "{{ env_var('COBLOCKS_WAREHOUSE_PATH') }}"
       threads: 4

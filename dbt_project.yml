@@ -25,3 +25,6 @@ models:
         node_color: 'silver'
     +docs:
       node_color: 'gold'
+
+flags:
+  log-format: json

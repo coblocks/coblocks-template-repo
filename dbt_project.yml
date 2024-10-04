@@ -5,12 +5,10 @@ version: '0.1'
 
 profile: 'coblocks'
 
-model-paths: ["models"]
+model-paths: ["blocks"]
 seed-paths: ["seeds"]
 
 target-path: "target"
-
-require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 seeds: 
   +docs:
@@ -25,6 +23,3 @@ models:
         node_color: 'silver'
     +docs:
       node_color: 'gold'
-
-flags:
-  log-format: json

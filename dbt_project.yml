@@ -15,10 +15,10 @@ seeds:
     node_color: '#cd7f32'
 
 models:
-  blocks:
-    materialized: table
+  coblocks:
+    +materialized: table
     staging:
-      materialized: view
+      +materialized: view
       +docs:
         node_color: 'silver'
     +docs:

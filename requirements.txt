@@ -2,3 +2,4 @@ dbt_core==1.8.4
 dbt_duckdb==1.8.2
 sqlfluff
 duckdb>=1.1.2
+openai>=1.54.3

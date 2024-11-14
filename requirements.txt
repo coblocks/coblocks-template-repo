@@ -2,3 +2,7 @@ dbt_core==1.8.4
 dbt_duckdb==1.8.2
 sqlfluff
 duckdb>=1.1.2
+langchain==0.3.7
+langchain_experimental==0.3.3
+langchain-openai==0.2.8
+pydantic==2.8.2

@@ -1,5 +1,6 @@
 dbt_core==1.8.4
 dbt_duckdb==1.8.2
+dbt-bigquery==1.8.3
 sqlfluff
 duckdb>=1.1.2
 langchain==0.3.7

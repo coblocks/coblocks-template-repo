@@ -1,5 +1,6 @@
 dbt_core==1.8.4
-dbt_duckdb==1.8.2
+dbt_duckdb==1.9.1
+dbt-duckdb[glue]
 sqlfluff
 duckdb>=1.1.2
 langchain==0.3.7
